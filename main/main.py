@@ -1,6 +1,7 @@
 import sys
 import asyncio
 import discord
+import os
 import utility
 import logging
 import sentry_sdk
@@ -281,4 +282,4 @@ if __name__ == "__main__":
         print("Usage: python main.py [runtime]")
         sys.exit()
 
-    client.run(discordKey)
+    client.run(os.environ['discordKey'])
