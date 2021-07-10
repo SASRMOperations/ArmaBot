@@ -272,7 +272,7 @@ if __name__ == "__main__":
     runtime = sys.argv[1]
 
     if runtime == "prod":
-        discordKey = keys["discordToken"]
+        discordKey = keys["ODYzMjkzNjM5NzAyNjA5OTUw.YOky2g.43zGjKLuT6M0VYSDghEZQLYs8bk"]
 
     elif runtime == "dev":
         discordKey = keys["discordToken_dev"]
